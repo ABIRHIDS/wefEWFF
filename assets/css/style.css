@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body{font-family: 'Roboto', sans-serif;}
+
+header{background: #282828;}
+
+header ul{text-align: center;}
+header ul li{display: inline-block;
+    padding: 15px 30px;
+}
+header ul li a{ color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    /* display: inline-block; */
+    display: block;}
+
+.container_portfolio{
+    margin: 0 auto;
+    width: 1200px;
+}
+.about_me{
+    text-align: center;
+    margin-top: 30px;
+}
+.about_me span {
+    font-size: 27px;
+}
+.about_me p {}
+
+.name_us{
+    margin-left: 40px;
+    margin-top: 65px;
+}
+.name_us span{
+    font-size: 25px;
+}
+.name_us span b{}
+.name_us p{font-size: 20px;
+    margin-top: 2px;}
+    
+section.body{
+    /* width: inherit; */
+    width: 55%;
+    display: inline-block;
+}
+.content_body{
+    /* margin-left: 40px; */
+    margin-top: 35px;
+    /* width: 55%; */
+    /* display: block; */
+    display: inline-block;
+    /* float: right; */
+}
+.content_body p{
+    /* width: 55%; */
+    margin-left: 40px;
+} 
+
+section.video_part{
+    width: 45%;
+    display: inline-block;
+    float: right;
+    margin-top: 140px;
+    /* float: right; */
+}
+.video_part_class{
+    /* float: right; */
+}
+.video_part_class video{
+    width: 70%;
+    margin-right: 40px;
+    /* float: left; */
+    float: right;
+}
+.video_part_class video source {}
+
+
+
+.download {
+    /* margin-top: 10px; */
+}
+.download input[type="submit"] {
+	       margin-top: 28px;
+	       width: 40p;
+	       margin-left: 40px;
+	       /* background: #E91E63; */
+	       background-color: #E91E63;
+	       color: #fff;
+	       /* padding: 28px; */
+	       /* padding-left: 80px; */
+	       padding: 9px 52px;
+	       font-size: 13px;
+}
+
+
+.social_media{
+    /* list-style: none; */
+    color: #7d2525;
+    margin-top: 28px;
+    /* margin-left: 40px; */
+    /* display: inline-block; */
+    /* display: block; */
+    margin-bottom: 40px;
+}
+.social_media ul{
+    /* color: #fff; */
+}
+.social_media ul li{
+    list-style: none;
+    /* color: #fff; */
+    /* display: block; */
+    display: inline-block;
+    /* padding: 6px; */
+    /* padding: 0 27px; */
+    oadding-left: 1px;
+    padding-left: 42px;
+    float: left;
+}
+.social_media ul li a {
+    color: #4a4949;
+    /* display: inline-block; */
+    display: block;
+}
+
